@@ -1,0 +1,69 @@
+
+.normal {
+  margin: 5px auto;
+  /*padding: 12px;*/
+  /*background-color: white;*/
+}
+.displayer{
+  display: inline-block;
+  margin-bottom: 20px;
+}
+.adder{
+  position: absolute;
+  right: 17px;
+  bottom: 11px;
+  z-index: 10;
+  color: #fff;
+  background-color: #108ee9;
+  letter-spacing:8px;
+  border-color: #108ee9;
+  padding: 5px 6px 5px 12px;
+  font-size: 14px;
+  border-radius: 3px;
+  line-height: 1.5;
+  display: inline-block;
+  font-weight: 500;
+  text-align: center;
+  font-family: inherit;
+  word-spacing: normal;
+  white-space: nowrap;
+}
+/*.endtimeposition{*/
+  /*position: absolute;*/
+  /*left: 253px;*/
+  /*bottom:125px;*/
+/*}*/
+.hideweek{
+  position: absolute;
+  top:10px;
+  left: 10px;
+  z-index: 3;
+}
+.weekplay{
+  position: absolute;
+  top:170px;
+  left: 40px;
+}
+.mangeshe{
+  position: absolute;
+  z-index: 1;
+  right: 20px;
+  bottom: 20px;
+}
+.mangeshetime{
+  position: absolute;
+  z-index: 1;
+  right: 150px;
+  bottom: 20px;
+}
+.schelist{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 95%;
+  overflow: scroll;
+  background-color: white;
+  z-index: 7;
+}
+

@@ -1,0 +1,443 @@
+
+body{
+  overflow-y: auto!important;
+}
+.normal {
+  max-width: 1000px;
+  margin: 5px auto;
+  padding: 1em;
+  background-color: white;
+}
+.user_details{
+  display: none;
+}
+.user_detail{
+  max-width: 1000px;
+  margin: 5px auto;
+  padding: 11px 34px;
+  background-color: white;
+  position: relative;
+  //font-family: '微软雅黑';
+  font-size: 14px;
+  color:#666666;
+  min-height: 700px;
+}
+.normalRow{
+  max-width: 1000px;
+  margin: 5px auto;
+  background: white;
+  padding: 1em;
+}
+.normalRow h2{
+  text-align: center;
+  color: red;
+}
+.lawyerRight li{
+  font-size: 14px;
+  margin: 5px;
+}
+.lawyerImg{
+  margin-right: 20px;
+  padding: 5px;
+  float: left;
+}
+.lawyerProfile{
+  margin-left: 5px;
+  margin-top: 20px;
+  width: 100%;
+}
+.lawyerProfile h3{
+  width: 100%;
+  background-color: #e5e5e5;
+  height: 30px;
+  line-height: 30px;
+}
+.lawyerProfile h3 span{
+  margin-left: 10px;
+}
+//.lawyerProfilediv{
+//  width: 100%;
+//  border: 1px solid #e5e5e5;
+//  padding: 5px;
+//}
+.lawyerProfilediv span{
+  margin: 5px;
+}
+.use_picborder{
+  padding: 5px;
+  width: 145px;
+  height: 145px;
+  border-radius: 5px;
+  position: relative;
+  top: -55px;
+  z-index:1;
+  float: left;
+  background-color: #ffffff;
+}
+.user_detail_picture{
+  width: 135px;
+  height: 135px;
+}
+.user_profile_top{
+  width: 767px;
+  float: left;
+  margin-left: 15px;
+}
+.user_paybut{
+  width: 78px;
+  height: 22px;
+  background-color: #0496ff;
+  color: #ffffff;
+  //font-family: '微软雅黑';
+  font-size: 12px;
+  display:inline-block;
+  text-align: center;
+  border-radius: 5px;
+  padding-top: 2px;
+  margin-top: 5px;
+}
+.user_myaccount{
+  //display: none;
+  width: 240px;
+  height: auto;
+  text-align: center;
+  border: 1px solid #f5f5f5;
+  float: left;
+}
+.user_myaccount_theme{
+  width: 100%;
+  height: 34px;
+  background-color: #f5f5f5;
+  text-align: center;
+  line-height: 34px;
+  font-size: 12px;
+  padding-right: 72px;
+}
+.clearfix{
+  clear: both;
+}
+.user_myaccount p{
+  padding: 25px;
+}
+.mycountright{
+  width: 645px;
+  padding-top: 5px;
+  float: left;
+  margin-left: 46px;
+}
+.user_myaccount p:hover{
+  border-left:3px solid #0496ff;
+  color:#0496ff;
+  font-size: 16px;
+}
+.user_count_theme{
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e5e5e5;
+  color: #0496ff;
+  margin-bottom: 16px;
+  width: 600px;
+  height: 34px;
+}
+.leftborder_show{
+  border-left:3px solid #0496ff;
+  color:#0496ff;
+  font-size: 16px;
+}
+.user_profile_name{
+  font-size: 26px;
+  //font-family: '微软雅黑';
+  font-weight: bold;
+  color: #333333;
+}
+.user_profile_top .saying{
+  font-size: 14px;
+  //font-family: '微软雅黑';
+  color: #666666;
+}
+.user_myaccount_theme img{
+  margin-right: 8px;
+}
+.changesuccess{
+  text-align: center;
+  height: 200px;
+  padding-top: 100px;
+}
+.fault_tip{
+  width: 100%;
+  text-align: center;
+  color: red;
+  font-size: 20px;
+}
+.user_profile_top .remaincount{
+  //font-family: "Microsoft Yahei";
+  font-size: 14px;
+  color: #ff7e00;
+  padding-right: 20px;
+}
+.user_count_theme a{
+  color: grey;
+  font-size: 14px;
+  //padding: 10px 10px 0 0;
+  width: 120px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.user_count_theme a:hover{
+  color:#0496ff;
+  font-size: 16px;
+}
+.user_count_theme .runing{
+  color:#0496ff;
+}
+.countremain tr .td_last{
+  display:inline-block;
+}
+.countremain tr .td_lasts{
+  display: none;
+}
+@media (max-width:425px){
+  .use_picborder{
+    width: 100px !important;
+    height: 100px !important;
+    top: -30px !important;
+    margin-left: 22px !important;
+  }
+  .user_detail_picture{
+    width: 90px !important;
+    height: 90px !important;
+  }
+  .user_profile_top{
+    margin-left: 150px !important;
+  }
+  .user_profile_name{
+    font-size: 30px !important;
+  }
+  .user_profile_top .saying{
+    font-size: 15px !important;
+  }
+  .user_details .countremain{
+    padding-left: 20px !important;
+    padding-right: 0px !important;
+  }
+  .countremain .remaincount{
+    font-size: 18px !important;
+  }
+  .user_paybut{
+    padding: 6px 12px !important;
+  }
+}
+
+@media (max-width:1000px){
+  .user_detail {
+    display: none !important;
+  }
+  .user_details{
+    display:block !important;
+  }
+  .normal {
+    max-width: 1000px;
+    margin: 5px auto;
+    padding: 1em;
+    background-color: white;
+  }
+  .user_details{
+    max-width: 1000px;
+    margin: 5px auto;
+    padding: 11px 0;
+    background-color: white;
+    position: relative;
+    //font-family: '微软雅黑';
+    font-size: 14px;
+    color:#666666;
+    min-height: 700px;
+    margin-top: 80px;
+  }
+  .user_details .countremain{
+    width: 100%;
+    height: 80px;
+    background-color:rgb(238,238,238) ;
+    padding-left: 40px;
+    //padding-top:24px;
+    padding-right: 30px;
+    line-height: 80px;
+    margin-top: 20px;
+  }
+  .normalRow{
+    max-width: 1000px;
+    margin: 5px auto;
+    background: white;
+    padding: 1em;
+  }
+  .normalRow h2{
+    text-align: center;
+    color: red;
+  }
+  .lawyerRight li{
+    font-size: 14px;
+    margin: 5px;
+  }
+  .lawyerImg{
+    margin-right: 20px;
+    padding: 5px;
+    float: left;
+  }
+  .lawyerProfile{
+    margin-left: 5px;
+    margin-top: 20px;
+    width: 100%;
+  }
+  .lawyerProfile h3{
+    width: 100%;
+    background-color: #e5e5e5;
+    height: 30px;
+    line-height: 30px;
+  }
+  .lawyerProfile h3 span{
+    margin-left: 10px;
+  }
+  //.lawyerProfilediv{
+  //  width: 100%;
+  //  border: 1px solid #e5e5e5;
+  //  padding: 5px;
+  //}
+  .lawyerProfilediv span{
+    margin: 5px;
+  }
+  .use_picborder{
+    padding: 5px;
+    width: 145px;
+    height: 145px;
+    border-radius: 5px;
+    position: absolute;
+    top: -55px;
+    z-index: 22;
+    float: left;
+    background-color: #ffffff;
+    margin-left: 40px;
+  }
+  .user_detail_picture{
+    width: 135px;
+    height: 135px;
+  }
+  .user_profile_top{
+    width:auto !important;
+    float: left;
+    margin-left: 205px;
+  }
+  .user_paybut{
+    background-color: #0496ff;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    display: inline;
+  }
+  .user_myaccount{
+    width: 240px;
+    height: auto;
+    text-align: center;
+    border: 1px solid #f5f5f5;
+    float: left;
+  }
+  .user_myaccount_theme{
+    width: 100%;
+    height: 34px;
+    background-color: #f5f5f5;
+    text-align: center;
+    line-height: 34px;
+    font-size: 12px;
+    padding-right: 72px;
+  }
+  .clearfix{
+    clear: both;
+  }
+  .user_myaccount p{
+    padding: 25px;
+  }
+  .mycountright{
+    width: 100%;
+    padding: 5px 10px;
+    float: left;
+    margin-left:0;
+  }
+  .user_myaccount p:hover{
+    border-left:3px solid #0496ff;
+    color:#0496ff;
+    font-size: 16px;
+  }
+  .user_count_theme{
+    width: 100%;
+    border-bottom: none !important;
+    color: #0496ff;
+    height: 34px;
+    text-align: right;
+  }
+
+  .leftborder_show{
+    border-left:3px solid #0496ff;
+    color:#0496ff;
+    font-size: 16px;
+  }
+  .user_profile_name{
+    font-size: 40px;
+    //font-family: '微软雅黑';
+    font-weight: bold;
+    color: #333333;
+  }
+  .user_profile_top .saying{
+    font-size: 20px;
+    //font-family: '微软雅黑';
+    color: #666666;
+  }
+  .user_myaccount_theme img{
+    margin-right: 8px;
+  }
+  .changesuccess{
+    text-align: center;
+    height: 200px;
+    padding-top: 100px;
+  }
+  .fault_tip{
+    width: 100%;
+    text-align: center;
+    color: red;
+    font-size: 20px;
+  }
+  .countremain .remaincount{
+    //font-family: "Microsoft Yahei";
+    font-size: 20px;
+    color: #ff7e00;
+  }
+  .user_count_theme a{
+    color: grey;
+    font-size: 14px;
+    padding:0;
+  }
+  .user_count_theme a:hover{
+    color:#0496ff;
+    font-size: 16px;
+  }
+  .user_count_theme .runing{
+    color:#0496ff;
+  }
+  .countremain tr .td_last{
+    display: none !important;
+  }
+  .countremain tr .td_lasts{
+    display: inline-block;
+  }
+  .user_top_theme{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    background-color: #e6e6e6;
+    margin-bottom: 0 !important;
+    margin-top: 0!important;
+    text-align: left !important;
+    font-size: 16px !important;
+    color: black !important;
+    border-left: 4px solid #0496ff;
+    padding-left: 10px;
+  }
+
+}

@@ -1,0 +1,62 @@
+
+.normalRow {
+  margin: 5px auto;
+  padding: 1em;
+  background-color: white;
+  /*width: 100%;*/
+}
+.normal{
+  margin: 5px auto;
+  padding: 1em;
+  background-color: white;
+  width: 100%;
+}
+
+.book_color_box1 {
+  display: inline-block;
+  margin-right: 0.5em;
+  font-size: 0.8em;
+  width: 0.8rem;
+  height: 0.8rem;
+  border: solid 1px black;
+  background-color: #999999;
+}
+.book_color_box2 {
+  display: inline-block;
+  margin-right: 0.5em;
+  font-size: 0.8em;
+  width: 0.8rem;
+  height: 0.8rem;
+  border: solid 1px black;
+  background-color: #6F0;
+}
+.book_color_box3 {
+  display: inline-block;
+  margin-right: 0.5em;
+  font-size: 0.8em;
+  width: 0.8rem;
+  height: 0.8rem;
+  border: solid 1px black;
+  background-color: #F90;
+}
+.btn_default{
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+/*.mange_schdule{*/
+  /*display: block;*/
+  /*margin: 0 auto;*/
+  /*margin-bottom: 15px;*/
+/*}*/
+.weekenposition{
+  position: absolute;
+}
+.weekplay{
+  position: absolute;
+  left: -27px;
+  top: -95px;
+  z-index: 6;
+}
+.datecard{
+  margin-bottom: 80px;
+}

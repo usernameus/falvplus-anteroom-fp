@@ -1,0 +1,23 @@
+
+.normal {
+}
+
+.itemBasicInfo{
+  font-weight: bold;
+}
+
+.payment_success{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background-color: #3F9B00;
+  color: #FCFCFB;
+  font-size: 20px;
+  border-radius: 100%;
+  text-align: center;
+}
+.payment_successful{
+  font-size: 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #e6e6e6;
+}

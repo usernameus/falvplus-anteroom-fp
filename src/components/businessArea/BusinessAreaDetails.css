@@ -1,0 +1,245 @@
+
+.normal {
+}
+*{
+  margin:0;
+  padding: 0;
+}
+.clearfix{
+  clear: both;
+}
+.left_list>li:not(:first-child):hover{
+  color: #0496ff;
+  border-left: 3px solid #0496ff;
+}
+.detail_zhuanyerenyuan{
+  color: #333333;
+  font-size:16px;
+}
+.changeColor{
+  color: #0496ff;
+  border-left: 3px solid #0496ff;
+}
+.detailImgSize {
+  width: 235px;
+  height: 236px;
+}
+.business_name{
+  color:#0496ff;
+  font-size:18px
+}
+.business_name_bottom_line{
+  width:100%;
+  height:3px;
+  background-color:#0496ff;
+}
+.business_detail_yewujianjiecotent{
+  color: #666666;
+  font-size: 14px;
+}
+.details_lawyer_list{
+  width:300px;
+  height:122px;
+  border:1px solid #f5f5f5;
+  float:left;
+  margin-right:10px;
+  margin-bottom:10px;
+}
+.detail_phoneconsolt_box{
+  width:108px;
+  height:36px;
+  line-height:36px;
+  text-align:center;
+  background-color:#f5f5f5;
+  font-size:13px;
+
+}
+.detail_phoneconsolt_box:hover{
+  cursor:pointer
+}
+.detail_click_intotheparlourbutton_box:hover{
+  cursor:pointer
+}
+.detail_click_intotheparlourbutton_box{
+  line-height:36px;
+  text-align:center;
+}
+.detail_lawyerteam_box{
+  color:#666666;
+  font-size:14px;
+  line-height:30px;
+}
+.details_lawyer_list h4{
+  color:#000000;
+  font-size:14px
+}
+.details_lawyer_list p{
+  color:#999999;
+  font-size:13px
+}
+.business_detail_yewujianjiethem{
+  line-height: 40px;
+}
+.business_detail_yewujianjiecotent{
+  line-height:25px;
+}
+@media (max-width:768px){
+  .detailImgSize{
+    width:100%;
+    height: auto;
+  }
+  .topImg_bottom_span{
+    padding: 20px;
+  }
+  .left_list{
+    display: none;
+  }
+  .detail_zhuanyerenyuan{
+    font-size: 34px;
+    line-height: 120px;
+  }
+  .business_name{
+    color:#333333;
+    display: block;
+    width: 100%;
+    height:107px;
+    line-height: 107px;
+    border-left: 3px solid #0496ff;
+    background-color: #f5f5f5;
+    padding-left: 20px;
+    font-size: 36px;
+  }
+  .business_name_bottom_line{
+    display: none;
+  }
+  .details_lawyer_list{
+    width:100%;
+  }
+  .detail_phoneconsolt_box{
+    font-size: 26px;
+    width: 208px;
+    text-align: center;
+    height: 70px;
+    line-height: 70px;
+  }
+  .detail_click_intotheparlourbutton_box{
+    font-size: 20px;
+    text-align: left;
+    line-height: 102px;
+  }
+  .business_detail_yewujianjiethem{
+    font-size: 24px;
+    line-height: 100px;
+    padding-left: 20px;
+  }
+  .business_detail_yewujianjiecotent{
+     font-size: 24px;
+     color:#666666;
+    padding-left: 20px;
+    line-height: 40px;
+  }
+  .detail_lawyerteam_box{
+    color:#666666;
+    font-size:24px;
+    line-height: 40px;
+    padding-left: 20px;
+  }
+  .details_lawyer_list h4{
+    font-size: 24px;
+  }
+  .details_lawyer_list p{
+    font-size: 18px;
+  }
+}
+@media (max-width:375px){
+  .topImg_bottom_span{
+    padding: 10px;
+  }
+  .detail_zhuanyerenyuan{
+    font-size: 17px;
+    line-height:60px;
+  }
+  .business_name{
+    height:53px;
+    line-height:53px;
+    padding-left: 10px;
+    font-size: 18px;
+  }
+  .detail_phoneconsolt_box{
+    font-size: 13px;
+    width: 104px;
+    height: 35px;
+    line-height: 35px;
+  }
+  .detail_click_intotheparlourbutton_box{
+    font-size: 14px;
+    line-height:51px;
+  }
+  .business_detail_yewujianjiethem{
+    font-size: 14px;
+    line-height: 50px;
+    padding-left: 10px;
+  }
+  .business_detail_yewujianjiecotent{
+    font-size: 14px;
+    padding-left: 10px;
+    line-height: 20px;
+  }
+  .detail_lawyerteam_box{
+    font-size:14px;
+    line-height: 20px;
+    padding-left: 10px;
+  }
+  .details_lawyer_list h4{
+    font-size: 14px;
+  }
+  .details_lawyer_list p{
+    font-size: 13px;
+  }
+}
+@media (max-width:425px){
+  .topImg_bottom_span{
+    padding: 12px;
+  }
+  .detail_zhuanyerenyuan{
+    font-size: 19px;
+    line-height:69px;
+  }
+  .business_name{
+    height:61px;
+    line-height:61px;
+    padding-left: 12px;
+    font-size:20px;
+  }
+  .detail_phoneconsolt_box{
+    font-size: 14px;
+    width: 120px;
+    height:40px;
+    line-height: 40px;
+  }
+  .detail_click_intotheparlourbutton_box{
+    font-size: 15px;
+    line-height:59px;
+  }
+  .business_detail_yewujianjiethem{
+    font-size: 15px;
+    line-height: 58px;
+    padding-left: 12px;
+  }
+  .business_detail_yewujianjiecotent{
+    font-size: 15px;
+    padding-left: 12px;
+    line-height: 23px;
+  }
+  .detail_lawyerteam_box{
+    font-size:15px;
+    line-height: 23px;
+    padding-left: 12px;
+  }
+  .details_lawyer_list h4{
+    font-size: 15px;
+  }
+  .details_lawyer_list p{
+    font-size: 14px;
+  }
+}

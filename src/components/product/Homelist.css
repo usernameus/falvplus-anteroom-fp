@@ -1,0 +1,251 @@
+
+.normal {
+}
+.productPage{
+  background-color: #FFFFFF;
+  max-width: 1000px;
+  margin: 10px auto;
+  padding: 20px;
+  font-size: 1.1em;
+  padding-top:26px;
+}
+.servetheme{
+  padding-bottom: 20px;
+  color: #999999;
+}
+.picturesize{
+  width:100%;
+  height:100%;
+}
+.picturebox{
+  width: 440px;
+  height:290px;
+  float: left;
+  margin-right: 16px;
+}
+.title_content{
+  font-size: 12px;
+  /*font-family: 'SimSun';*/
+  color: #999999;
+  width:100%;
+  word-break:keep-all;/* 不换行 */
+  white-space:nowrap;/* 不换行 */
+  overflow:hidden;
+  text-overflow:ellipsis;
+  line-height: 25px;
+}
+.pricebox{
+  margin-top: 10px;
+  width: 464px;
+  height: 36px;
+  background-color: #F1F1F1;
+  padding-left: 15px;
+}
+.priceboxs{
+  display: none;
+}
+.shopprice{
+  color: #ff6633;
+  /*font-family: "microsoft yahei";*/
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 36px;
+}
+.shichangprice{
+  font-size: 14px;
+  /*font-family: '宋体';*/
+  color:#999999;
+  line-height: 36px;
+}
+.productname {
+  font-size: 24px;
+  color:#333333;
+  font-weight: bold;
+  word-wrap:break-word;
+  word-break:break-all;
+  overflow: hidden;/*这个参数根据需要来绝对要不要*/
+}
+.product_profile{
+  width: 464px;
+  float: left;
+  /*margin-left: 10px;*/
+}
+.clearfix{
+  clear:both;
+}
+.productnumber{
+  font-size: 18px;
+  line-height: 36px;
+  /*font-family: simsun;*/
+  color: #999;
+  display: inline-block;
+}
+.have_server{
+  font-size: 14px;
+  color: #999999;
+  padding-left: 15px;
+}
+.dealnumber{
+  font-size: 14px;
+  color: black;
+  margin-left: 5px;
+}
+.pro_detail_parameter {
+  border: 1px solid #ddd;
+  margin-top:48px;
+  margin-bottom: 22px;
+  color: #666;
+  overflow: hidden;
+  *zoom: 1;
+  display: block;
+  /*width: 938px;*/
+}
+.pro_detail_parameter .hd {
+  height: 42px;
+  line-height: 42px;
+  border-bottom: 1px solid #ddd;
+  background: #f5f5f5;
+}
+.pro_detail_parameter .hd  h4{
+  padding-left: 5px;
+}
+
+ .product_content{
+  font-size: 14px;
+  text-indent: 20px;
+  line-height: 22px;
+   margin: 0  20px;
+   color: #999999;
+}
+.hoter{
+  padding: 2px;
+  background-color: #f60;
+  font-size: 8px;
+  color: white;
+  border-radius: 1px;
+}
+.promote{
+  padding: 0 4px;
+  height: 18px;
+  line-height: 18px;
+  color: #FFF;
+  background: #FF8E1B;
+  margin-left: 5px;
+}
+.pronum{
+  margin-top: 10px;
+  width: 424px;
+  border-top:1px dashed #D9D9D9;
+  border-bottom: 1px dashed #D9D9D9;
+  height: 30px;
+  padding-top: 5px;
+}
+.buynow{
+  width: 110px;
+  height: 33px;
+  font-size: 14px;
+  /*font-family: '微软雅黑';*/
+  display: block;
+  text-align: center;
+  line-height: 33px;
+  color: #333333;
+  margin-top: 35px;
+  background-color: #fde425;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.productbir{
+  width: 112px;
+  height: 42px;
+  color: #0496ff;
+  display: block;
+  text-align: center;
+  line-height: 42px;
+  font-size: 14px;
+  background-color: #ffffff;
+  border-top: 4px solid #0496ff;
+}
+.sev_con_border{
+  border:1px solid #ddd;
+}
+.servr_con_table{
+  border-collapse:collapse;
+  width: 938px;
+  font-size: 16px;
+  margin-top: 40px;
+}
+.servr_con_table tr td{
+  border: 1px solid #ddd;
+}
+.table_left{
+  width: 30%;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+.table_right{
+  width: 70%;
+  padding: 25px;
+}
+.pronums {
+  display: none;
+}
+@media (max-width:768px){
+  .servetheme{
+    display: none;
+    padding-bottom: 0;
+  }
+  .productPage{
+    padding:0;
+  }
+  .picturebox{
+    width: 100%;
+  }
+  .pricebox{
+    display: none;
+  }
+  .priceboxs{
+    display: block;
+  }
+  .priceboxs .shopprice{
+    color: #ff6633;
+    /*font-family: "microsoft yahei";*/
+    font-size: 26px;
+    font-weight: bold;
+    line-height: 36px;
+  }
+  .pronum{
+    display: none;
+  }
+  .pronums{
+    display: block;
+    width: 100%;
+    border-top:none;
+    border-bottom:none;
+    background-color:#f5f5f5;
+    height: 30px;
+    padding-top: 5px;
+  }
+  .buynow{
+    margin-left: 10px;
+  }
+  .product_profile .product_profiles{
+    margin-left: 15px;
+  }
+  .productbir{
+    background-color:#f5f5f5;
+    border-top:none;
+    border-left: 4px solid #0496ff;
+  }
+  .pro_detail_parameter{
+    margin-left: 20px;
+    margin-right: 20px;
+    width: auto;
+  }
+  .servr_con_table{
+    width:90%;
+    margin:0 auto;
+  }
+  .product_profile{
+    width:100%;
+  }
+}

@@ -1,0 +1,53 @@
+@import "./vars.less";
+
+:global {
+  .collapseList > .ant-collapse > .ant-collapse-item > .ant-collapse-header{
+    text-align: center!important;
+  }
+  .ant-modal-mask {
+    background-color: rgba(55, 55, 55, 0.2);
+  }
+
+  .ant-modal-content {
+    box-shadow: none;
+  }
+
+  .ant-card {
+    &:hover {
+      overflow: auto;
+    }
+  }
+
+  .channelListPanel .ant-badge-count{
+    left: 40px!important;
+  }
+}
+
+.ContentList{
+  position:fixed;
+  top: 70px;
+  bottom: 10px;
+  left: 0;
+  right:0;
+  overflow:hidden;
+}
+@media (max-width:768px) {
+  .ContentList{
+    position:fixed;
+    top: 0px;
+    bottom: 10px;
+    left: 0;
+    right:0;
+    overflow:hidden;
+  }
+  .rightNav{
+    display: block!important;
+    position:fixed;
+    top: 10px;
+    right:0;
+    overflow:hidden;
+  }
+}
+.rightNav{
+  display: none;
+}

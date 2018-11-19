@@ -1,0 +1,243 @@
+
+.normal {
+}
+
+:global{
+
+  .render-page>div{
+    margin: 0px auto;
+  }
+
+  .render-page.rotate0{
+    transform: rotateZ(0deg);
+  }
+
+  .render-page.rotate90{
+    transform: rotateZ(90deg);
+  }
+
+  .render-page.rotate180{
+    transform: rotateZ(180deg);
+  }
+
+  .render-page.rotate270{
+    transform: rotateZ(270deg);
+  }
+  @font-face {
+    font-family: 'fpanticon';  /* project id 258626 */
+    src: url('//at.alicdn.com/t/font_258626_kd9fzyvwrssjor.eot');
+    src: url('//at.alicdn.com/t/font_258626_kd9fzyvwrssjor.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_258626_kd9fzyvwrssjor.woff') format('woff'),
+    url('//at.alicdn.com/t/font_258626_kd9fzyvwrssjor.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_258626_kd9fzyvwrssjor.svg#fpant') format('svg');
+  }
+  .fpanticon{
+    display: inline-block;
+    font-style: normal;
+    font-size: 1.5em;
+    vertical-align: baseline;
+    text-align: center;
+    text-transform: none;
+    line-height: 2;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  .fpanticon:before {
+    display: block;
+    font-family: "fpanticon" !important;
+  }
+
+  .fpanticon-pencil:before{
+    content: "\e70a";
+  }
+  .fpanticon-consultation:before{
+    content: "\e60c";
+  }
+  .fpanticon-phone:before{
+    content: "\e6de";
+  }
+  .fpanticon-line:before{
+    content: '\e628';
+  }
+
+  .fpanticon-rect:before{
+    content: '\e61d';
+  }
+
+  .fpanticon-ellipse:before{
+    content: '\e61a';
+  }
+
+  .fpanticon-wenben:before{
+    content: '\e618';
+  }
+
+  .fpanticon-zoomin:before{
+    content: '\e627';
+  }
+
+  .fpanticon-zoomout:before{
+    content: '\e63b';
+  }
+
+  .fpanticon-zoomreset:before{
+    content: '\e605';
+  }
+
+  .fpanticon-rotateleft:before{
+    content: '\e7ec';
+  }
+
+  .fpanticon-rotateright:before{
+    content: '\e7ef';
+  }
+
+  .fpanticon-colors:before{
+    content: '\e6d4';
+  }
+
+  .fpanticon-video:before{
+    content: '\e619';
+  }
+
+  .fpanticon-chat:before{
+    content: '\e62f';
+  }
+
+  .fpanticon-team:before{
+    content: '\e62b';
+  }
+
+  .fpanticon-adduser:before{
+    content: '\e674';
+  }
+
+  .fpanticon-files:before{
+    content: '\e670';
+  }
+
+  .fpanticon-forbiddenvideo:before{
+    content: '\e680';
+  }
+
+  .fpanticon-nomic:before{
+    content: '\e622';
+  }
+
+  .fpanticon-nospeaker:before{
+    content: '\e626';
+  }
+
+  .fpanticon-plus:before{
+    content: '\e601';
+  }
+  .fpanticon-home:before{
+    content: '\e606';
+  }
+  .fpanticon-finance:before{
+    content: '\e631';
+  }
+  .fpanticon-statistics:before{
+    content: '\e74d';
+  }
+  .fpanticon-mute:before{
+    content: '\e671';
+  }
+  .fpanticon-speaker:before{
+    content: '\e672';
+  }
+  .fpanticon-chat:before{
+    content: '\e61e';
+  }
+  .fpanticon-sync:before{
+    content: '\e72f';
+  }
+  .fpanticon-sharedisplay:before{
+    content: '\e6a1';
+  }
+  .fpanticon-linkfiles:before{
+    content: '\e6d5';
+  }
+  .fpanticon-syncarrow:before{
+    content: '\ed4c';
+  }
+  .fpanticon-share:before{
+    content: '\e64e';
+  }
+  .fpanticon-move:before{
+    content: '\e602';
+  }
+  .fpanticon-mini:before{
+    content: '\e68b';
+    font-size: 0.8rem;
+    transform: scale(1,-1);
+  }
+  .fpanticon-noaudio:before{
+    content: '\e65d';
+  }
+  .fpanticon-novideo:before{
+    content: '\e65b';
+  }
+  .fpanticon-maxwnd:before{
+    content: '\eccc';
+  }
+  .fpanticon-restorewnd:before{
+    content: '\e6f6';
+  }
+  .fpanticon-restoremini:before{
+    content: '\e61f';
+  }
+  .fpanticon-online:before{
+    content: '\e7c6';
+  }
+  .fpanticon-offline:before{
+    content: '\e90b';
+  }
+  .fpanticon-rubber:before{
+    content: '\e646';
+  }
+  .fpanticon-word:before{
+    content: '\e620';
+  }
+  .fpanticon-excel:before{
+    content: '\e610';
+  }
+  .fpanticon-ppt:before{
+    content: '\e60f';
+  }
+  .fpanticon-pdf:before{
+    content: '\e60e';
+  }
+  .fpanticon-pic:before{
+    content: '\e63d';
+  }
+  .fpanticon-download:before{
+    content: '\e643';
+  }
+
+  .fpanticon-order:before{
+    content: '\e608';
+  }
+  td.channelname{
+    text-align: left!important;
+  }
+  td.channelsOp a{
+    margin-right: 1em;
+  }
+
+  .canvas-op-btns button{
+    width: 48px;
+    height: 48px;
+    font-size: 14px;
+  }
+
+  .icon {
+    width: 1em; height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+}
+
+

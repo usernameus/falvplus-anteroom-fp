@@ -1,0 +1,86 @@
+
+.normal {
+}
+
+:global{
+
+  .avatar{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    position: absolute;
+    left: 50%;
+    margin: 10px 10px 10px -25px;
+  }
+  .avatardiv{
+    margin: 10px auto;
+    width: 50px;
+    height: 50px;
+    background: #00a2d4;
+    border-radius: 25px;
+    text-align: center;
+  }
+  .avatarName{
+    font-size: 30px;
+    line-height: 50px;
+    color: white;
+  }
+
+  .myMsg{
+    margin: 5px 1rem 5px 1em;
+    padding: 5px 1em;
+    height: auto;
+    width: auto;
+    min-width: 5em;
+    max-width: 95%;
+    float:right;
+    position: relative;
+    background: lawngreen;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    border-radius: 0.5em;
+    overflow:visible;
+    word-wrap: break-word;
+  }
+  .myMsg:before{
+    content:"";
+    position: absolute;
+    left:100%;
+    top: 0.5em;
+    width:0;
+    height:0;
+    border-top: 0.3em solid transparent;
+    border-left: 0.6em solid lawngreen;
+    border-bottom: 0.3em solid transparent;
+  }
+
+  .remoteMsg{
+    margin: 5px 1rem 5px 1em;
+    padding: 5px 1em;
+    height: auto;
+    width: auto;
+    min-width: 5em;
+    max-width: 95%;
+    position: relative;
+    background: lightskyblue;
+    -moz-border-radius: 0.5em;
+    -webkit-border-radius: 0.5em;
+    border-radius: 0.5em;
+    overflow:visible;
+    float:left;
+    word-wrap: break-word;
+  }
+
+  .remoteMsg:before{
+    content:"";
+    position: absolute;
+    right:100%;
+    top: 0.5em;
+    width:0;
+    height:0;
+    border-top: 0.3em solid transparent;
+    border-right: 0.6em solid lightskyblue;
+    border-bottom: 0.3em solid transparent;
+  }
+
+}

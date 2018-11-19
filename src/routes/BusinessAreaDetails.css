@@ -1,0 +1,16 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.normal {
+  background-color: #FFFFFF;
+  max-width: 1000px;
+  margin: 10px auto;
+  padding: 20px;
+}
+@media (max-width:768px){
+  .normal {
+    padding: 0px;
+    margin: 0px auto;
+  }
+}

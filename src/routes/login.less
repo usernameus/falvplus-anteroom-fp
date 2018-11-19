@@ -1,0 +1,118 @@
+.form {
+  //position: absolute;
+  //top: 30%;
+  //left: 50%;
+  //margin: -160px 0 0 -160px;
+  //margin: 10em auto auto auto;
+  margin: 0 auto;
+  width: 320px;
+  height: 320px;
+  padding: 36px;
+  //box-shadow: 0 0 100px rgba(0,0,0,.08);
+
+  button {
+    width: 100%;
+  }
+
+  p {
+    color: rgb(204, 204, 204);
+    text-align: center;
+    margin-top: 16px;
+
+    span {
+      &:first-child {
+        margin-right: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width:768px){
+  .form{
+    box-shadow: none;
+    width: 70%;
+    height: 500px;
+    //padding-top: 150px;
+    //padding-bottom: 150px;
+  }
+  //.logo{
+  //  display: none;
+  //}
+  .inputphone{
+     width: 100%;
+    height: 40px;
+    border-radius:8px;
+  }
+  .siginphone{
+    width: 100%;
+    height: 50px;
+    border-radius: 8px;
+  }
+  .siginphone_but{
+    font-size: 18px;
+  }
+  .verifyphone{
+    height: 40px;
+    border-radius: 8px;
+  }
+}
+@media (max-width:425px){
+  .form{
+    box-shadow: none;
+    width: 90%;
+    height: 400px;
+    //padding-top: 130px;
+    padding-bottom: 130px;
+  }
+  .inputphone{
+    height: 30px;
+  }
+  .siginphone{
+    height: 40px;
+  }
+  .siginphone_but{
+    font-size: 16px;
+  }
+  .verifyphone{
+    height: 30px;
+    border-radius: 8px;
+  }
+}
+
+.logo {
+  text-align: center;
+  height: 80px;
+  //line-height: 70px;
+  cursor: pointer;
+  margin-bottom: 24px;
+
+  img {
+    // width: 40px;
+    height: 50px;
+    //margin-right: 8px;
+  }
+.Logo_title{
+  margin-top: 0px!important;
+  color: #0496ff;
+  font-size: 25px;
+  font-family: '微软雅黑';
+}
+
+  .Logo_titles{
+    margin-top: 0px!important;
+    color: #0496ff;
+    font-size: 15px;
+    font-family: '微软雅黑';
+  }
+  span {
+    vertical-align: text-bottom;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+  }
+}
+
+.ant-spin-container,
+.ant-spin-nested-loading {
+  height: 100%;
+}

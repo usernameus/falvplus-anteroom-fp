@@ -1,0 +1,10 @@
+
+.normal {
+  background-color: white;
+  padding: 24px;
+}
+.normalRow{
+  margin-left: 0px;
+  background-color: white!important;
+  padding: 10px;
+}

@@ -1,0 +1,43 @@
+
+.normal {
+  /*width: 1000px;*/
+  height: auto;
+  margin: 0 auto;
+  background-color: white;
+}
+.app_mod__tabs_container{
+  position: relative;
+  margin: 20px 0;
+  /*width: 1000px;*/
+  height: auto;
+  margin-top: 20px;
+}
+/*.tabs_mod_tabs_nav{*/
+  /*position: relative;*/
+  /*left: 20px;*/
+  /*top: 1px;*/
+  /*width: 130px;*/
+  /*height: 27px;*/
+  /*text-align: center;*/
+  /*line-height: 21px;*/
+  /*border: 1px solid #AEC7E5;*/
+  /*border-bottom: 1px solid white;*/
+  /*font-weight: 700;*/
+  /*font-size: 14px;*/
+  /*color: #333;*/
+  /*border-radius: 5px 5px 0 0;*/
+/*}*/
+.tabs_mod__tabs_panels{
+  border: 1px solid #AEC7E5;
+}
+.tabs_mod__tabs_panels div{
+  padding: 10px;
+}
+.tabs_mod__tabs_panels div span{
+  width: 78px;
+  font-weight: 700;
+}
+.tabs_mod__tabs_panels img{
+  width: 80px;
+  height: 80px;
+}

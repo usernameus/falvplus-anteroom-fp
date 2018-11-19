@@ -1,0 +1,20 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+.clearfix{
+  clear: both;
+}
+.normal {
+  height: 600px;
+  background:-webkit-gradient(linear, 0 0, 0 bottom, from(#dceff9), to(#ffffff));
+  background:-moz-linear-gradient(top, #dceff9, #ffffff);
+  padding-top: 150px;
+  font-size: 16px;
+}
+.normal>div{
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+}

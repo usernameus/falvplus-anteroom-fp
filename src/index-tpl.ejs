@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <meta http-equiv="pragma" content="no-cache"/>
+  <meta http-equiv="cache-control" content="no-cache"/>
+  <meta http-equiv="expires" content="0"/>
+  <meta name="keywords" content="法仆®律师专属会客室,律师专属会客室,律师咨询,法律咨询,律师会见,面对面咨询,视频咨询"/>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <link rel="icon" href="https://theme.lj110.com/default/Logo/biaoqianlogo.png" type="image/x-icon">
+  <!--[if lte IE 10]>
+  <script
+    src="https://as.alipayobjects.com/g/component/??console-polyfill/0.2.2/index.js,media-match/2.0.2/media.match.min.js"></script>
+  <![endif]-->
+  <script type="text/javascript">
+    var pathname = window.location.pathname;
+
+    if(/AppleWebKit.*mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){
+      if(window.location.href.indexOf("?mobile")<0){
+        try{
+          if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){
+            if(!pathname.startWith("/m/")){
+              window.location.href = window.location.origin + "/m" + window.location.href.substring(window.location.origin.length);
+            }
+          }else if(/iPad/i.test(navigator.userAgent)){
+            if(!pathname.startWith("/m/")){
+              window.location.href = window.location.origin + "/m" + window.location.href.substring(window.location.origin.length);
+            }
+          }else{
+            if(pathname.startWith("/m/")){
+              window.location.href = window.location.origin + window.location.href.substring(window.location.origin.length + '/m'.length);
+            }
+          }
+        }catch(e){}
+      }
+    }
+    if (typeof String.prototype.startsWith != 'function') {
+      String.prototype.startsWith = function (prefix){
+        return this.slice(0, prefix.length) === prefix;
+      };
+    }
+    (function () {
+      function CustomEvent ( event, params ) {
+        params = params || { bubbles: false, cancelable: false, detail: undefined };
+        var evt = document.createEvent( 'CustomEvent' );
+        evt.initCustomEvent( event, params.bubbles, params.cancelable, params.detail );
+        return evt;
+      };
+
+      CustomEvent.prototype = window.Event.prototype;
+      window.CustomEvent = CustomEvent;
+    })();
+  </script>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?652567d95464a4ee4080e2a09e006fe6";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+</head>
+<body>
+<div id="root"></div>
+<!--<script src="//at.alicdn.com/t/font_c4y7asse3q1cq5mi.js"></script>-->
+<!--<script src="//at.alicdn.com/t/font_6y2wrnmoqo94fgvi.js"></script>-->
+</body>
+</html>

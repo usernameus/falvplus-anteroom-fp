@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="keywords" content="法仆,律师专属会客室,律师会客室,网络会客室,律师咨询,法律咨询,视频咨询,面对面咨询,律师会见"/>
+  <meta name="description" content="法仆,律师专属会客室,律师会客室,网络会客室,律师咨询,法律咨询,视频咨询,面对面咨询,律师会见"/>
+  <title><%= htmlWebpackPlugin.options.title %></title>
+  <link rel="stylesheet" href="/index.css" />
+  <link rel="icon" href="https://obdln43yw.qnssl.com/logo28.png" type="image/x-icon">
+  <!--[if lte IE 10]>
+  <script
+    src="https://as.alipayobjects.com/g/component/??console-polyfill/0.2.2/index.js,media-match/2.0.2/media.match.min.js"></script>
+  <![endif]-->
+  <script type="text/javascript">
+    var pathname = window.location.pathname;
+
+    if(/AppleWebKit.*mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){
+      if(window.location.href.indexOf("?mobile")<0){
+        try{
+          if(/Android|webOS|iPhone|iPod|BlackBerry/i.test(navigator.userAgent)){
+            if(!pathname.startWith("/m/")){
+              window.location.href = window.location.origin + "/m" + window.location.href.substring(window.location.origin.length);
+            }
+          }else if(/iPad/i.test(navigator.userAgent)){
+            if(!pathname.startWith("/m/")){
+              window.location.href = window.location.origin + "/m" + window.location.href.substring(window.location.origin.length);
+            }
+          }else{
+            if(pathname.startWith("/m/")){
+              window.location.href = window.location.origin + window.location.href.substring(window.location.origin.length + '/m'.length);
+            }
+          }
+        }catch(e){}
+      }
+    }
+  </script>
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?652567d95464a4ee4080e2a09e006fe6";
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
+
+</head>
+<body>
+<div id="root"></div>
+<script src="//at.alicdn.com/t/font_c4y7asse3q1cq5mi.js"></script>
+</body>
+</html>

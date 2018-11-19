@@ -1,0 +1,8 @@
+{
+  "presets": ["es2015", "react"],
+  "plugins": [
+    "babel-plugin-transform-decorators-legacy",
+    "react-hot-loader/babel",
+    ["import", {"libraryName": "antd", "style": true }] // `style: true` 会加载 less 文件
+   ]
+}

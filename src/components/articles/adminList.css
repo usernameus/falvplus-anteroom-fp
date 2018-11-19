@@ -1,0 +1,11 @@
+.normal{
+  /*border: 1px solid black;*/
+}
+.textarea{
+  width: 80%;
+  height: 50%;
+}
+.ant-modal-mask{
+  width: 100%;
+  height: 100%;
+}
